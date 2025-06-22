@@ -15,3 +15,12 @@ button {
   margin-top: 10px;
   padding: 8px 16px;
 }
+
+#suggestion {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10px;
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #333;
+}
