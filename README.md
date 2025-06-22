@@ -1,6 +1,7 @@
 # AI LaTeX Editor
 
 Simple web-based LaTeX editor with PDF compilation using `pdflatex`.
+Now includes basic AI suggestions powered by the OpenAI API.
 
 ## Usage
 
@@ -13,6 +14,10 @@ Simple web-based LaTeX editor with PDF compilation using `pdflatex`.
    node server.js
    ```
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to edit LaTeX and compile PDFs.
+
+### AI Suggestions
+
+Set the `OPENAI_API_KEY` environment variable to enable the AI suggestion feature.
 
 ## Notes
 
