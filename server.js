@@ -2,11 +2,12 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
-const { Configuration, OpenAIApi } = require('openai');
+const OpenAI = require('openai');
 
-const openai = new OpenAIApi(new Configuration({
+// Initialize the OpenAI client using the v5+ API style
+const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
-}));
+});
 
 const app = express();
 app.use(express.json({ limit: '1mb' }));

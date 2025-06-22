@@ -18,6 +18,8 @@ Now includes basic AI suggestions powered by the OpenAI API.
 ### AI Suggestions
 
 Set the `OPENAI_API_KEY` environment variable to enable the AI suggestion feature.
+The project uses version 5 of the `openai` package, so the client is
+initialized in `server.js` using `new OpenAI({ apiKey: ... })`.
 
 ## Notes
 
